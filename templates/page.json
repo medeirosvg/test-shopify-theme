@@ -1,0 +1,157 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_bFEfmQ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_kXeehh": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://pages/aviso-legal-de-utilizacao-de-imagens",
+            "link_text": "Compartilhe sua experiência",
+            "link_2": "shopify://pages/aviso-legal-de-utilizacao-de-imagens",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/client-1.jpg",
+            "image_mobile": "shopify://shop_images/client-1.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rkwxC9": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://pages/aviso-legal-de-utilizacao-de-imagens",
+            "link_text": "Compartilhe sua experiência",
+            "link_2": "shopify://pages/aviso-legal-de-utilizacao-de-imagens",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/client-2.jpg",
+            "image_mobile": "shopify://shop_images/client-2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_kXeehh",
+        "image_rkwxC9"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "testimonials_rpDxrj": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_9bhPth": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Uso todos os dias e recebo elogios! A fragrância fixa por horas.</p>",
+            "image": "shopify://shop_images/client-1.jpg",
+            "author": "Mariana S.",
+            "author_info": "São Paulo"
+          }
+        },
+        "testimonial_haE3yT": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Estou amando a fragrância, tudo como eu imaginava.</p>",
+            "image": "shopify://shop_images/client-2.jpg",
+            "author": "Augusto M.",
+            "author_info": "Curitiba"
+          }
+        },
+        "testimonial_kw9zi3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>É simplesmente sensacional, atendeu minha expectativas.</p>",
+            "image": "shopify://shop_images/client-3.jpg",
+            "author": "Hermes A.",
+            "author_info": "Bahia"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_9bhPth",
+        "testimonial_haE3yT",
+        "testimonial_kw9zi3"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "title": "Depoimentos",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#e4f1f2",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "apps_MAEDXL": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_JLTfhd": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "500946",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#2e5e60",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_JLTfhd"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_bFEfmQ",
+    "main",
+    "apps_MAEDXL",
+    "testimonials_rpDxrj"
+  ]
+}

@@ -1,0 +1,30 @@
+{% capture description %}
+  {%- if product.empty? -%}
+    {{ 'home_page.onboarding.product_description' | t }}
+  {%- else -%}
+    {{ product.description }}
+  {%- endif -%}
+{% endcapture %}
+{%- if is_tab -%}
+  {% assign title = 'products.product.description' | t %}
+  {%- render 'tab', id: id, title: title, content: description -%}
+{%- else -%}
+  <div class="rte">
+    <div class="grid">
+      <div class="grid__item medium-up--one-half">
+        {{ description }}
+      </div>
+      <div class="grid__item medium-up--one-half details">
+        {%- if product.metafields.custom.notas_de_saida != blank -%}
+          <div class="notas_de_saida"><p><b>Notas de saída:</b> {{ product.metafields.custom.notas_de_saida }}</p></div>
+        {%- endif -%}
+        {%- if product.metafields.custom.notas_de_corpo != blank -%}
+          <div class="notas_de_corpo"><p><b>Notas de corpo:</b> {{ product.metafields.custom.notas_de_corpo }}</p></div>
+        {%- endif -%}
+        {%- if product.metafields.custom.notas_de_fundo != blank -%}
+          <div class="notas_de_fundo"><p><b>Notas de fundo:</b> {{ product.metafields.custom.notas_de_fundo }}</p></div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+{%- endif -%}

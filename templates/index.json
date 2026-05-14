@@ -1,0 +1,299 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "scrolling_text_rhQBNp": {
+      "type": "scrolling-text",
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "Não testamos em animais ⚱ Ingredientes premium ⚱ Perfumes intensos, de longa duração ⚱ Entrega rápida e segura ⚱",
+        "link": "",
+        "text_size": 20,
+        "text_spacing": false,
+        "direction": "left",
+        "speed": 300
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Frete grátis",
+            "title_size": 80,
+            "subheading": "Ganhe frete grátis nas compras acima de R$200",
+            "link": "shopify://collections/all",
+            "link_text": "Conheça Nossas Fragrâncias",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#2e5e60",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/sample-banner-desktop.png",
+            "image_mobile": "shopify://shop_images/1080x1080_Elbe.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_T4rAFL": {
+          "type": "image",
+          "name": "Hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "Compromisso ético",
+            "title_size": 80,
+            "subheading": "Aqui é amor real - nunca testado em animais",
+            "link": "",
+            "link_text": "Saiba mais",
+            "link_2": "shopify://collections/all",
+            "link_text_2": "",
+            "color_accent": "#2e5e60",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/1800x800_BODENSEE.png",
+            "image_mobile": "shopify://shop_images/1080x1080_Bodensee.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UydNU4": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Primeira compra",
+            "title_size": 80,
+            "subheading": "Sua primeira compra com mimo exclusivo",
+            "link": "",
+            "link_text": "Descubra",
+            "link_2": "shopify://collections/all",
+            "link_text_2": "",
+            "color_accent": "#2e5e60",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/1800x800_2.png",
+            "image_mobile": "shopify://shop_images/1080x1080_Thames.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "image_T4rAFL",
+        "image_UydNU4"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "500px",
+        "parallax": false,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_PYgcTn": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Nossos Perfumes",
+      "settings": {
+        "title": "Inspirações by kaindy",
+        "home_featured_products": "nossos-6-perfumes-kaindy",
+        "per_row": 3,
+        "rows": 2,
+        "mobile_scrollable": false,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "1751993367a0c7c6cf": {
+      "type": "apps",
+      "blocks": {
+        "vizup_shoppable_video_carousel_videos_block_hPiRmb": {
+          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "name": "Vitrine com Vídeos",
+          "settings": {
+            "videoc_widget_id": "Vitrine com Vídeos"
+          }
+        }
+      },
+      "block_order": [
+        "vizup_shoppable_video_carousel_videos_block_hPiRmb"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "text_with_icons_9hwDtg": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_wmJpN8": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Alta Fixação",
+            "text": "<p>Fragrâncias duradouras</p>"
+          }
+        },
+        "text_block_fxBntg": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Qualidade Premium",
+            "text": "<p>Ingredientes selecionados</p>"
+          }
+        },
+        "text_block_yYWyWt": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "Feito para Você Brilhar",
+            "text": "<p>Sua essência única</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_wmJpN8",
+        "text_block_fxBntg",
+        "text_block_yYWyWt"
+      ],
+      "custom_css": [],
+      "name": "Valores da Marca",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#2e5e60",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "1751913262d5efa827": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_hUmGLk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_hUmGLk"
+      ],
+      "custom_css": [
+        "div > div > div {background: white; border-radius: 10px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "rich_text_ExcUmN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6hJCXx": {
+          "type": "heading",
+          "settings": {
+            "title": "#minhakaindy ao Vivo"
+          }
+        },
+        "text_Vb6B8h": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Compartilhe seu momento usando #minhakaindy</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6hJCXx",
+        "text_Vb6B8h"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "advanced_content_q8WzhA": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_rJzPWF": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"elfsight-sapp-a3b5c229-b729-4be8-8a95-47e42bc057bc\"></div>\n\n<div class=\"grid__item text-center small--hide\" style=\"margin-top:2em;\">\n<a href=\"#\" class=\"btn\" style=\"border-radius:10px;\"><svg style=\"margin-bottom:.3em;\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-instagram\" viewBox=\"0 0 32 32\"><title>instagram</title><path fill=\"#444\" d=\"M16 3.094c4.206 0 4.7.019 6.363.094 1.538.069 2.369.325 2.925.544.738.287 1.262.625 1.813 1.175s.894 1.075 1.175 1.813c.212.556.475 1.387.544 2.925.075 1.662.094 2.156.094 6.363s-.019 4.7-.094 6.363c-.069 1.538-.325 2.369-.544 2.925-.288.738-.625 1.262-1.175 1.813s-1.075.894-1.813 1.175c-.556.212-1.387.475-2.925.544-1.663.075-2.156.094-6.363.094s-4.7-.019-6.363-.094c-1.537-.069-2.369-.325-2.925-.544-.737-.288-1.263-.625-1.813-1.175s-.894-1.075-1.175-1.813c-.212-.556-.475-1.387-.544-2.925-.075-1.663-.094-2.156-.094-6.363s.019-4.7.094-6.363c.069-1.537.325-2.369.544-2.925.287-.737.625-1.263 1.175-1.813s1.075-.894 1.813-1.175c.556-.212 1.388-.475 2.925-.544 1.662-.081 2.156-.094 6.363-.094zm0-2.838c-4.275 0-4.813.019-6.494.094-1.675.075-2.819.344-3.819.731-1.037.4-1.913.944-2.788 1.819S1.486 4.656 1.08 5.688c-.387 1-.656 2.144-.731 3.825-.075 1.675-.094 2.213-.094 6.488s.019 4.813.094 6.494c.075 1.675.344 2.819.731 3.825.4 1.038.944 1.913 1.819 2.788s1.756 1.413 2.788 1.819c1 .387 2.144.656 3.825.731s2.213.094 6.494.094 4.813-.019 6.494-.094c1.675-.075 2.819-.344 3.825-.731 1.038-.4 1.913-.944 2.788-1.819s1.413-1.756 1.819-2.788c.387-1 .656-2.144.731-3.825s.094-2.212.094-6.494-.019-4.813-.094-6.494c-.075-1.675-.344-2.819-.731-3.825-.4-1.038-.944-1.913-1.819-2.788s-1.756-1.413-2.788-1.819c-1-.387-2.144-.656-3.825-.731C20.812.275 20.275.256 16 .256z\"></path><path fill=\"#444\" d=\"M16 7.912a8.088 8.088 0 0 0 0 16.175c4.463 0 8.087-3.625 8.087-8.088s-3.625-8.088-8.088-8.088zm0 13.338a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 1 1 0 10.5zM26.294 7.594a1.887 1.887 0 1 1-3.774.002 1.887 1.887 0 0 1 3.774-.003z\"></path></svg> Ver mais no instagram</a>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_rJzPWF"
+      ],
+      "name": "minhakaindy",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "newsletter_jKAcVA": {
+      "type": "newsletter",
+      "blocks": {
+        "title_8CQAp8": {
+          "type": "title",
+          "settings": {
+            "title": "Fique por dentro das novidades Kaindy",
+            "heading_size": "h3"
+          }
+        },
+        "form_y867hE": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_8CQAp8",
+        "form_y867hE"
+      ],
+      "custom_css": [
+        "div > div > div {background: #2e5e60; border-radius: 10px;}",
+        "button {background: #efefd5; border-top-right-radius: 10px; border-bottom-right-radius: 10px; color: black;}",
+        "input {border-top-left-radius: 10px; border-bottom-left-radius: 10px; border: 1px solid white;}",
+        "input::placeholder {color: gray;}"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#f2f0eb",
+        "color_text": "#ffffff",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    }
+  },
+  "order": [
+    "scrolling_text_rhQBNp",
+    "slideshow",
+    "featured_collection_PYgcTn",
+    "1751993367a0c7c6cf",
+    "1751913262d5efa827",
+    "text_with_icons_9hwDtg",
+    "rich_text_ExcUmN",
+    "advanced_content_q8WzhA",
+    "newsletter_jKAcVA"
+  ]
+}
